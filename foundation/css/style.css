@@ -1,6 +1,7 @@
 .fullscreen {
+  height: 100%;
+  min-height: 100%;
   width: 100%;
-  height: 300px;
   background: #27241f;
   background: -moz-linear-gradient(top, #333333, #27241f);
   background: -webkit-linear-gradient(top, #333333, #27241f);
@@ -14,14 +15,13 @@
   color: #dedede;
   font-size: 4em;
   font-weight: 500;
-  letter-spacing: -1;
 }
 
 .description {
   padding: 0px 24px 0px;
   text-align: center;
   color: white;
-
+  font-size: 0.95em;
 }
 
 .inline-list{
@@ -39,16 +39,6 @@
   padding: 20px;
 }
 
-#pinapp:link {
-  font-family: "Lobster", cursive;
-  color: #D56;
-
-
-}
-
-#pinapp:active {
-  font-family: "Lobster", cursive;
-  color: #008CBA;
-
-
+.top-link {
+  text-align: center;
 }
